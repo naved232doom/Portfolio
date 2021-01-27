@@ -6,10 +6,10 @@ const Academics= ()=> {
         <div className='academics'>
         <h2>Academics</h2>
         <div className='school'>
-            <div class="col-md-8 center acadContent" >
+            <div class="col-md-4 col-sm-6 " className='center acadContent' >
             <h1>NIT JAMSHEDPUR</h1>
         <h4>Electronics and Communications Engineering</h4>
-        <h4><b>CGPA: 8.88</b></h4>
+        <h4><b>CGPA: 8.82</b></h4>
         <img  className="pleaseresize" src="https://i.ytimg.com/vi/bFGH_fFyWoo/maxresdefault.jpg"></img>
             </div>
             
