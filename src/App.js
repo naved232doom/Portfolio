@@ -35,7 +35,7 @@ function App() {
         
           <div className="project">
             <Route exact path="/Books" component={Books}></Route>
-          </div>
+        </div>  
         
         <Switch>
           <div className="container">

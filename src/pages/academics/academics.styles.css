@@ -4,7 +4,7 @@
     padding: 8px;
 }
 h2{
-    font-size: 60px;
+    font-size: 50px;
     color: black;
     border: white;
     text-align: center;
@@ -24,11 +24,13 @@ h2{
     align-items: center;
     justify-content: center;
     border: 1px solid black;
-    margin: 5% auto;
+    margin: 5% ;
+    padding: 3%;
     overflow: hidden;
     background-color: white;
    
     border: 1px solid black;
+    border-radius: 15px;
     /* width: auto;
     height: auto;
     display:flex;
@@ -37,12 +39,6 @@ h2{
 } 
 
 
-@media (max-width: 786px) {
-
-    .school{
-        width: 100%;
-    }
-}
 
 
 

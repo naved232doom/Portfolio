@@ -1,12 +1,12 @@
 import React from "react";
-import {FaFacebookF,FaGithub,FaLinkedinIn} from 'react-icons/fa'
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaHome } from "react-icons/fa";
 import {SiCodeforces} from 'react-icons/si'
 import {Navbar, Nav} from 'react-bootstrap'
 const Header =()=>{
     return (
       <>
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-          <Navbar.Brand href="/">Home</Navbar.Brand>
+          <Navbar.Brand href="/"><FaHome></FaHome></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
