@@ -27,7 +27,7 @@ const book_data = [
   {
     id: "5",
     name: "The Millionaire Next Door",
-    img: "https://images-na.ssl-images-amazon.com/images/I/71b5RWQm8ZL.jpg",
+    img: "https://i.ibb.co/m8MB3Rk/71b5-RWQm8-ZL.jpg",
     genre: "Business/Self-help",
   },
 
@@ -54,10 +54,28 @@ const book_data = [
   },
   {
     id: "9",
-    name: "The Intelligent Investor",
-    img:
-      "https://allbooksworld.com/wp-content/uploads/2019/10/The-Intelligent-Investor-by-Benjamin-Graham.jpg",
+    name: "Show Your Work",
+    img: "https://images-na.ssl-images-amazon.com/images/I/71MTgEEjNVL.jpg",
     genre: "Business/Self-Help",
+  },
+  {
+    id: "10",
+    name: "The Midnight Library",
+    img:
+      "https://images-na.ssl-images-amazon.com/images/I/41eHhySW8NL._SX354_BO1,204,203,200_.jpg",
+    genre: "Self-Help",
+  },
+  {
+    id: "11",
+    name: "The Village By The Sea",
+    img: "https://images-na.ssl-images-amazon.com/images/I/71-aCClU0gL.jpg",
+    genre: "Memoir",
+  },
+  {
+    id: "12",
+    name: "The Legends Of the First Empire",
+    img: "https://images.penguinrandomhouse.com/cover/9781101965382",
+    genre: "Fantasy",
   },
 ];
 

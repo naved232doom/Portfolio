@@ -39,6 +39,7 @@ function App() {
         
         <Switch>
           <div className="container">
+          
             <Route path="/Hobbies" component={Hobbies}></Route>
           </div>
         </Switch>
