@@ -1,50 +1,39 @@
-import React from 'react';
+import React from "react";
 
-import {connect} from 'react-redux';
-import {createStructuredSelector} from 'reselect';
+import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
 
-import {
-  BrowserRouter,
-  Redirect,
-  Link,
-  Route,
-  Switch,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Link, Route, Switch } from "react-router-dom";
 import Header from "./components/navbar/navbar.components";
-import Projects from './pages/academics/Projects/projects.components'
-import Hobbies from './pages/academics/Hobbies/hobies.component'
-import Homepage from './pages/academics/homepage/homepage.component';
-import Academics  from './pages/academics/academics.component'
-import Books from './pages/academics/books/books.component';
-import './App.css';
+import Projects from "./pages/academics/Projects/projects.components";
+import Hobbies from "./pages/academics/Hobbies/hobies.component";
+import Homepage from "./pages/academics/homepage/homepage.component";
+import Academics from "./pages/academics/Academics/academics.component";
+import Books from "./pages/academics/books/books.component";
+import SignIn from "./components/sign-in/sign-in.component.jsx";
+import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header></Header>
-      <div className="App">
-        <Switch>
-          <Route exact path="/" component={Homepage}></Route>
+    
+      <Router>
+        <Header></Header>
+        <div className="App">
+          <Switch>
+            <Route path="/" exact component={Homepage}></Route>
 
-          <Route path="/Academics" component={Academics}></Route>
+            <Route path="/Academics" component={Academics}></Route>
 
-          <div className="project">
             <Route path="/Projects" component={Projects}></Route>
-          </div>
-        </Switch>
-        
-          <div className="project">
-            <Route exact path="/Books" component={Books}></Route>
-        </div>  
-        
-        <Switch>
-          <div className="container">
-          
+
+            <Route path="/Books" component={Books}></Route>
+
             <Route path="/Hobbies" component={Hobbies}></Route>
-          </div>
-        </Switch>
-      </div>
-    </BrowserRouter>
+            <Route path="/signin" component={SignIn}></Route>
+          </Switch>
+        </div>
+      </Router>
+    
   );
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../academics/academics.styles.css';
+import './academics.styles.css';
 const Academics= ()=> {
     return (
         

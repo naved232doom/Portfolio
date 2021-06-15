@@ -1,5 +1,5 @@
 .academics{
-    margin-top: 5%;
+    margin: auto;
     flex-direction: column;
     padding: 8px;
 }
@@ -37,7 +37,11 @@ h2{
     color: black; */
     
 } 
-
+@media (min-width: 641px) {
+  .academics {
+    margin: auto 25%;
+  }
+}
 
 
 

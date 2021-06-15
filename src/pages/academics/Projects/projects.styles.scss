@@ -1,60 +1,43 @@
+.collections-projects {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  text-overflow: ellipsis;
 
-.collection-item {
-   background-color: white;
-    padding: 8px;
-    flex-direction:column;
-    height: auto;
-    align-items: center;
-    position: relative;
-    margin: 10px auto;
-    text-overflow:ellipsis;
+  .collection-item-projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.705);
+    padding: 5%;
+    margin: 5%;
+    text-overflow: ellipsis;
     word-wrap: break-word;
-    overflow: hidden;
-    .image {
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        background-position: center;
-        margin-bottom: 5px;
-    }
+  }
+  .image-projects {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
 
-    .custom-button {
-        width: 80%;
-        opacity: 0.7;
-        position: absolute;
-        top: 255px;
-        display: none;
-    }
+  .name-projects {
+    padding: 9px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
 
-    &:hover {
-        .image {
-            opacity: 0.8;
-        }
+  .collection-footer {
+    padding: 9px;
 
-        .custom-button {
-            opacity: 0.82;
-            display: flex;
-        }
-    }
-    .name {
-        padding: 9px;
-        margin-bottom: 15px;
-        font-size: 25px;
-        text-align: center;
-        
-    }
-
-    .collection-footer {
-        font-size: 14px;
-        width: auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        
-
-
-        .price {
-            width: 10%;
-        }
-    }
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 641px) {
+  .collections-projects {
+    margin: auto 25%;
+  }
 }

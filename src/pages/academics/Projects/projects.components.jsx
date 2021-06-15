@@ -1,14 +1,14 @@
 import React from "react";
 
-import "../Projects/projects.styles.scss";
+import "./projects.styles.scss";
 import ProjectData from "../Projects/projects.data";
 
-const Projects = () => {
+const ProjectsList = () => {
   return ProjectData.map((item) => (
-    <div class="col-md-4 col-sm-6" key={item.id}>
-      <div className="collection-item">
-        <img className="image" src={item.img}></img>
-        <div className="name">{item.name}</div>
+    <div  key={item.id}>
+      <div className="collection-item-projects">
+        <img className="image-projects" src={item.img}></img>
+        <div className="name-projects">{item.name}</div>
         <div className="collection-footer">
           <a class="link" href={item.content}>
             {item.content.substr(0, 51)}
@@ -19,4 +19,11 @@ const Projects = () => {
   ));
 };
 
+const Projects =()=>{
+  return(
+  <div className='collections-projects'>
+    <ProjectsList></ProjectsList>
+  </div>
+  )
+}
 export default Projects;

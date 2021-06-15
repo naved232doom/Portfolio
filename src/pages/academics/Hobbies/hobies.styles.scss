@@ -6,9 +6,11 @@
   align-items: center;
   justify-content: center;
   border: 1px solid black;
-  margin: 5% 10%;
+  margin: auto ;
+  margin-top: 5%;
   overflow: hidden;
-
+  max-width: 60vw;
+  max-height: 60vh;
   &:hover {
     cursor: pointer;
 
