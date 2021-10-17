@@ -23,7 +23,9 @@ const Homepage = () => {
       {/* <FaFacebookF></FaFacebookF>
           <FaFacebookF></FaFacebookF> */}
       <div className="homepage">
-        <h2>Hi! I'm Naved</h2>
+        <h2 style={{
+          color: "#fff"
+        }}>Hi There!</h2>
         <h5 className="content">
           I'm currently a Sophomore at NIT Jamshedpur with varied interests in
           different technologies. I spent most of my free time reading books and

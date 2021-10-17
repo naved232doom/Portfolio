@@ -1,10 +1,10 @@
 body {
-  font-family: "Yusei Magic";
-
-  background-image: url("https://i.ibb.co/47cLjpm/roma-kaiuk-OUy-V22tp-GXI-unsplash-1.jpg");
+ font-family: 'PT Sans',
+ sans-serif !important;
+ ;
+  background-image: url("https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80");
   background-size: cover;
   width: 100%;
-  background-repeat: no-repeat;
 }
 
 a {

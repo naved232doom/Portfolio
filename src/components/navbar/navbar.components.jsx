@@ -1,15 +1,26 @@
 import React from "react";
-import { FaFacebookF, FaGithub, FaLinkedinIn, FaHome } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaGithub,
+  FaLinkedinIn,
+  FaHome,
+  FaGoodreadsG,
+} from "react-icons/fa";
 import {SiCodeforces} from 'react-icons/si'
 import {Navbar, Nav} from 'react-bootstrap'
 const Header =()=>{
     return (
       <>
-        <Navbar collapseOnSelect expand="lg"  variant="dark">
-          <Navbar.Brand href="/"><FaHome></FaHome></Navbar.Brand>
+        <Navbar collapseOnSelect expand="lg" variant="dark">
+          <Navbar.Brand href="/">
+            <FaHome></FaHome>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
+              <Nav.Link href="https://www.goodreads.com/user/show/53326074-naved-sohail">
+                <FaGoodreadsG></FaGoodreadsG>
+              </Nav.Link>
               <Nav.Link href="https://www.facebook.com/navsohail32">
                 <FaFacebookF></FaFacebookF>
               </Nav.Link>
