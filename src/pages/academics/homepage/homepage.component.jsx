@@ -1,5 +1,4 @@
 import React from "react";
-import { Jumbotron } from "react-bootstrap";
 import { FaSass, FaReact, FaNodeJs, FaBootstrap } from "react-icons/fa";
 import "../homepage/homepage.styles.scss";
 
@@ -23,9 +22,13 @@ const Homepage = () => {
       {/* <FaFacebookF></FaFacebookF>
           <FaFacebookF></FaFacebookF> */}
       <div className="homepage">
-        <h2 style={{
-          color: "#fff"
-        }}>Hi There!</h2>
+        <h2
+          style={{
+            color: "#fff",
+          }}
+        >
+          Hi There!
+        </h2>
         <h5 className="content">
           I'm currently a Sophomore at NIT Jamshedpur with varied interests in
           different technologies. I spent most of my free time reading books and
