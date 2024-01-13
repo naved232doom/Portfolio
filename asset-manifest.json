@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/naved232doom.github.io/static/css/main.8b511c85.chunk.css",
+    "main.js": "/naved232doom.github.io/static/js/main.4b8d7531.chunk.js",
+    "main.js.map": "/naved232doom.github.io/static/js/main.4b8d7531.chunk.js.map",
+    "runtime-main.js": "/naved232doom.github.io/static/js/runtime-main.2adbdc40.js",
+    "runtime-main.js.map": "/naved232doom.github.io/static/js/runtime-main.2adbdc40.js.map",
+    "static/css/2.081f420c.chunk.css": "/naved232doom.github.io/static/css/2.081f420c.chunk.css",
+    "static/js/2.34360a3d.chunk.js": "/naved232doom.github.io/static/js/2.34360a3d.chunk.js",
+    "static/js/2.34360a3d.chunk.js.map": "/naved232doom.github.io/static/js/2.34360a3d.chunk.js.map",
+    "static/js/3.22fc4a9e.chunk.js": "/naved232doom.github.io/static/js/3.22fc4a9e.chunk.js",
+    "static/js/3.22fc4a9e.chunk.js.map": "/naved232doom.github.io/static/js/3.22fc4a9e.chunk.js.map",
+    "index.html": "/naved232doom.github.io/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/naved232doom.github.io/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.8b511c85.chunk.css.map": "/naved232doom.github.io/static/css/main.8b511c85.chunk.css.map",
+    "static/js/2.34360a3d.chunk.js.LICENSE.txt": "/naved232doom.github.io/static/js/2.34360a3d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2adbdc40.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.34360a3d.chunk.js",
+    "static/css/main.8b511c85.chunk.css",
+    "static/js/main.4b8d7531.chunk.js"
+  ]
+}
